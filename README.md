@@ -1,6 +1,12 @@
 # producttracker
-This is a sample applicaion created using spring boot with in memory db for now.
-
+This is a sample applicaion created using spring boot with in memory db for now. 
+## Running product tracker using Maven
+ - Open a terminal and navigate to `producttracker` folder
+ - Run the following `Maven` command to start the application
+   ```
+    ./mvnw clean spring-boot:run
+   ```
+  - Port set up for 8001
 
   | Endpoint                                                          | Secured              |
   | ----------------------------------------------------------------- | ---------------------|
