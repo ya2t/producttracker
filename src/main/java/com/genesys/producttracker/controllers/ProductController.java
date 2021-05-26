@@ -20,7 +20,7 @@ public class ProductController {
     private ProductRepository productRepository;
 
     @GetMapping
-    public List<Product> getAllEmployees() {
+    public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
 
